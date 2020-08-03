@@ -1,0 +1,14 @@
+.tooltip {
+  position: absolute;
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ccc;
+  transition: .3s ease-in-out;
+}
