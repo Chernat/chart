@@ -60,7 +60,7 @@ class Chartt {
         this.miniChartRightToggleX = x - this.startRightToggle ;
         this.updateSlider();
         this.render();
-      } else if (this.leftToggle && leftToggleStopLeft <= x && x <= leftToggleStopRight) {
+      } else if (this.leftToggle && leftToggleStopLeft >= 0 && x <= leftToggleStopRight) {
         this.miniChartLeftToggleX = x - this.startLeftToggle ;
         this.updateSlider();
         this.render();
